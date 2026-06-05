@@ -38,11 +38,15 @@ battle at the implementation phase. Forking lets us edit those skills directly w
 untouched front-end comes along for free.
 
 ### What is inherited unchanged
-`brainstorming`, `writing-plans`, `systematic-debugging`, `using-git-worktrees`,
+`writing-plans`, `systematic-debugging`, `using-git-worktrees`,
 `verification-before-completion`, hooks, commands plumbing, and `using-superpowers`
-(rebranded). The full idea → spec → plan front-end is untouched. `writing-plans`
-produces a plan document on disk; that document is the clean seam the teaching
-executor consumes.
+(rebranded). The full idea → spec → plan front-end is untouched behaviorally.
+`writing-plans` produces a plan document on disk; that document is the clean seam the
+teaching executor consumes.
+
+The one front-end change is a **rename, not a behavior change**: the `brainstorming`
+skill — the entry point that triggers this whole teaching flow — is renamed to
+**`lamestorm`** in the fork. Its content and process are otherwise inherited as-is.
 
 ### What is rewritten (PoC scope)
 - `executing-plans` → teaching loop (see below).
