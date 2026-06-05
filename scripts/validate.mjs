@@ -30,6 +30,7 @@ check('plugin name is suprapowers', !!pluginJson && JSON.parse(pluginJson).name 
 // 2. marketplace.json identity
 const market = read('.claude-plugin/marketplace.json');
 check('marketplace.json parses', (() => { try { JSON.parse(market); return true; } catch { return false; } })());
+check('marketplace top-level name is suprapowers-dev', !!market && JSON.parse(market).name === 'suprapowers-dev');
 check('marketplace lists a suprapowers plugin',
   !!market && (JSON.parse(market).plugins || []).some(p => p.name === 'suprapowers'));
 
