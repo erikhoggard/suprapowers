@@ -1,6 +1,9 @@
-# Superpowers
+# suprapowers
 
-Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
+A teaching fork of [superpowers](https://github.com/obra/superpowers). Same idea → spec →
+plan front-end, but the implementation phase **coaches you to write the code yourself**:
+it explains the *why*, teaches the language features, hands you the coding, and reviews
+what you write with tiered hints. Run it instead of superpowers.
 
 ## Quickstart
 
