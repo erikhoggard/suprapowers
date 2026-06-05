@@ -1,20 +1,17 @@
 {
-  "name": "superpowers",
-  "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
-  "version": "5.1.0",
+  "name": "suprapowers",
+  "description": "Teaching fork of superpowers: coaches you to write the code yourself at the implementation phase instead of doing it for you.",
+  "version": "0.1.0",
   "author": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
+    "name": "Erik Hoggard",
+    "email": "erikhoggard@gmail.com"
   },
-  "homepage": "https://github.com/obra/superpowers",
-  "repository": "https://github.com/obra/superpowers",
   "license": "MIT",
   "keywords": [
     "skills",
+    "teaching",
+    "coaching",
     "tdd",
-    "debugging",
-    "collaboration",
-    "best-practices",
-    "workflows"
+    "learning"
   ]
 }

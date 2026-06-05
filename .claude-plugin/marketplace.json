@@ -1,19 +1,19 @@
 {
   "name": "superpowers-dev",
-  "description": "Development marketplace for Superpowers core skills library",
+  "description": "Local marketplace for the superpowers teaching skills library",
   "owner": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
+    "name": "Erik Hoggard",
+    "email": "erikhoggard@gmail.com"
   },
   "plugins": [
     {
-      "name": "superpowers",
-      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "5.1.0",
+      "name": "suprapowers",
+      "description": "Teaching fork of superpowers: coaches you to write the code yourself.",
+      "version": "0.1.0",
       "source": "./",
       "author": {
-        "name": "Jesse Vincent",
-        "email": "jesse@fsck.com"
+        "name": "Erik Hoggard",
+        "email": "erikhoggard@gmail.com"
       }
     }
   ]
